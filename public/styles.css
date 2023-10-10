@@ -1,0 +1,128 @@
+body {
+    font-family: "Montserrat-Black", sans-serif;
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    /*overflow-x: hidden;*/
+}
+
+h1, h2 {
+    margin-bottom: 4%;
+}
+
+h5 {
+    font-weight: bolder;
+    text-align: center;
+}
+
+h6 {
+    text-align: center;
+}
+
+p {
+    font-size: medium;
+}
+
+/* Universal */
+.row {
+    width: 100%;
+    padding: 2% 12%;
+}
+
+.first-container {
+    background-color: #0B4619;
+    color: white;
+}
+
+.second-container {
+    background-color: white;
+}
+
+/* Navigation bar */
+.navbar {
+    background-color: white;
+    padding-left: 12.5%;
+    padding-right: 12.5%;
+}
+
+.navbar-light .navbar-brand {
+    color: black;
+    font-weight: bold;
+    font-family: "Montserrat-Black", sans-serif;
+}
+
+.navbar-light .navbar-brand:hover {
+    color: #0B4619;
+}
+
+.navbar-light .nav-item .nav-link {
+    font-family: "Montserrat-Black", sans-serif;
+    color: black;
+    font-weight: bold;
+}
+
+.navbar-light .nav-item .nav-link:hover {
+    color: #0B4619;
+}
+
+/* Main page */
+.about-us {
+    padding-right: 2%;
+    text-align: left;
+    color: white;
+}
+
+/* Gallery */
+.small-carousel {
+    position: relative;
+    width: 80%;
+    margin: 1% auto 2%;
+}
+
+.carousel-caption {
+    bottom: -0.75rem;
+}
+
+.gallery-title {
+    margin-bottom: 1%;
+    text-align: center;
+}
+
+/* Contact Form */
+.contact-form {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.contact-form h1 {
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+.button-div {
+    text-align: center;
+}
+
+/* Button */
+.btn-outline-success {
+    color: #0B4619;
+}
+
+.btn-outline-success:hover {
+    background-color: #0B4619;
+}
+
+/* MenuPage */
+.menu-item {
+    font-size: larger;
+    font-weight: bold;
+    color: #0B4619;
+    text-decoration: none;
+}
+
+.menu-item:hover {
+    color: black;
+}
